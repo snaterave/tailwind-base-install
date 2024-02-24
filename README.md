@@ -21,7 +21,9 @@ Con la ejecución de éste script podrás tener una estructura de proyecto bási
 - Tener en cuenta que para ejecutar el script de instalación ( createTailwind.sh ) debes tener permiso de execución del script.
 - Se pedirá nombre el proyecto para hacer la instalación, el nombre del proyecto será obligatorio para poder avanzar.
 - Una vez terminada la instalación tendrás dentro del directorio de tu proyecto una estructura como la siguiente:
+
 ![](./resources/structure.png)
+
 - Ve a tu **package.json** y en el key "scripts" agrega los siguientes comandos de ejecución:
 
 ```javascript
@@ -39,6 +41,7 @@ Con la ejecución de éste script podrás tener una estructura de proyecto bási
 - Con el comando del paso anterior se construirán todas las reglas css de tailwind en el archivo **public/css/tailwind.css** y quedará en modo de espera para cargar todos cambios que realices en tu app.
 - Finalmente, si estas usando VSC (Visual Studio Code), entonces instala la extensión Live Server y ejecútalo.
 - Si la instalación está corecta verás el siguiente resultado:
+
 ![](./resources/result.png)
 
 
