@@ -1,0 +1,25 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./public/index.html"],
+  theme: {
+    extend: {
+      backgroundColor: theme =>({
+				...theme('colors'), // colores por defecto de tailwind
+				'secondary': '#0C1220',
+			}),
+			textColor:{
+				'primary': '#38BDF8',
+				'secundary': '#C7D2FE'
+			},
+    },
+  },
+  variants:{
+	extend:{
+		with:['responsive','hover','focus']
+	}
+  },
+  plugins: [],
+};
+
+
+
