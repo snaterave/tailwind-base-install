@@ -13,7 +13,7 @@ UBICACION_ACTUAL=`pwd`
 # Función encargada de crear la estructura del proyecto base.
 create_tailwind_project (){
     npm init -y
-    npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+    npm install -D tailwindcss@3 postcss@8.5.3 autoprefixer@9.8.6
     npx tailwindcss init
     cat ../resources/config.text > ./tailwind.config.js
     mkdir src && cd src && mkdir css && cd css && touch tailwind.css
